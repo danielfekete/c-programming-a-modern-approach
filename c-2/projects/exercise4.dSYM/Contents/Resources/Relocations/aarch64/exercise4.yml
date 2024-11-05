@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/danielfekete/Development/c/c-2/programming-projects/exercise4'
+relocations:     []
+...
