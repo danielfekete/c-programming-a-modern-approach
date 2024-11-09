@@ -1,0 +1,4 @@
+a, equivalent
+b, equivalent
+c, different
+d, equivalent
