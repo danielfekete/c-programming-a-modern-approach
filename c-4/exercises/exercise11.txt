@@ -1,0 +1,20 @@
+a,
+    i = 1;
+    printf("%d", i++ - 1); // Outputs: 0
+    printf("%d",i); // Outputs: 2
+
+b,
+    i = 10; j = 5;
+    printf("%d", i++ - ++j); // Outputs: 4
+    printf("%d %d", i, j); // Outputs: 11 6
+
+c,
+    i = 7; j = 8;
+    printf("%d", i++ - --j); // Outputs: 0
+    printf("%d %d", i, j); // Outputs: 8 7
+
+d,
+    i = 3; j = 4; k = 5;
+    printf("%d", i++ - j++ + --k); // Outputs: 3
+    printf("%d %d", i, j, k); // Outputs: 4 5 4
+

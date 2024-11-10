@@ -1,0 +1,1 @@
+In C99 yes, in C89 (-10) / 3 could be either -3 or -4.

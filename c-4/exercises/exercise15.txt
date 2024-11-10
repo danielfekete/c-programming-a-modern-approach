@@ -1,0 +1,17 @@
+i = 1; j = 2;
+
+a,
+    i += j;
+    After the expresssion: i = 3; j = 2;
+
+b,
+    i--; 
+    After the expresssion: i = 0; j = 2;
+
+c,    
+    i * j / i;
+    After the expresssion: i = 1; j = 2;
+
+d,
+    i % ++j;
+    After the expresssion: i = 1; j = 3;

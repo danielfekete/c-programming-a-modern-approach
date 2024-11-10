@@ -1,0 +1,1 @@
+++i because it's immediately increments the value of i and returns it just like i += 1, i++ does not increment the value of i immediately it returns the old value of i
