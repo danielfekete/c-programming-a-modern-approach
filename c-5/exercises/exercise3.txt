@@ -1,0 +1,19 @@
+a,
+    i = 3; j = 4; k = 5;
+    printf("%d ", i < j || j++ < k); // Ouputs: 1
+    printf("%d %d %d", i, j, k); // Outputs: 3 5 5
+
+b,
+    i = 7; j = 8; k = 9;
+    printf("%d ", i - 7 && j++ < k); // Ouputs: 0
+    printf("%d %d %d", i, j, k); // Outputs: 7 9 9
+
+c,
+    i = 7; j = 8; k = 9;
+    printf("%d ", (i = j) || (j = k)); // Ouputs: 1
+    printf("%d %d %d", i, j, k); // Outputs: 8 9 9
+
+d,
+    i = 1; j = 1; k = 1;
+    printf("%d ", ++i || j++ && ++k); // Ouputs: 0
+    printf("%d %d %d", i, j, k); // Outputs: 2 2 2

@@ -1,0 +1,4 @@
+if (n == 1-10) // 5 == -9 -> 0
+ printf("n is between 1 and 10\n");
+
+It's legal, when n is 5 the expression equals to 0, so the printf won't run.
