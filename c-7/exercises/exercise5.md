@@ -1,0 +1,4 @@
+- a, 'A'; -> legal
+- b, 0b10000001; -> illegal
+- c, 0101; -> legal
+- d, 0x41; -> legal
