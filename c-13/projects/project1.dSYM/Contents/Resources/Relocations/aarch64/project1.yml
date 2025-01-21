@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/danielfekete/Development/c/c-13/projects/project1'
+relocations:     []
+...

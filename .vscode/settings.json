@@ -1,8 +1,12 @@
 {
   "files.associations": {
+    "*.ndjson": "jsonl",
+    "*.dbclient-js": "javascript",
     "*.ejs": "html",
     "stdio.h": "c",
     "stdlib.h": "c",
-    "sstream": "c"
+    "sstream": "c",
+    "string.h": "c",
+    "ctype.h": "c"
   }
 }
