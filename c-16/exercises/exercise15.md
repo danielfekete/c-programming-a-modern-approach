@@ -1,0 +1,11 @@
+a,
+
+```c
+enum weekdays {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY};
+```
+
+b,
+
+```c
+typedef enum {MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY} Days;
+```
