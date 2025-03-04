@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "*.sqlbook": "sql",
     "*.ndjson": "jsonl",
     "*.dbclient-js": "javascript",
     "*.ejs": "html",
@@ -7,6 +8,7 @@
     "stdlib.h": "c",
     "sstream": "c",
     "string.h": "c",
-    "ctype.h": "c"
+    "ctype.h": "c",
+    "readline.h": "c"
   }
 }

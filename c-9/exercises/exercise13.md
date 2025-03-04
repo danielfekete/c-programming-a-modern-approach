@@ -1,4 +1,4 @@
-```
+```c
 int evaluate_position(char board[8][8]){
     int white = 0, black = 0, value;
 
